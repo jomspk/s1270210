@@ -3,6 +3,9 @@ import random
 string=""
 countH=0
 countT=0
+print("Who are you?")
+y=input()
+print("Hello, "+y+"!")
 print("Tossing a coin...")
 for i in range(3):
     x=random.randrange(2)
