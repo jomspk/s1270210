@@ -6,7 +6,7 @@ countT=0
 print("Who are you?")
 y=input()
 print("Hello, "+y+"!")
-z="you"
+z=y
 print("Tossing a coin...")
 for i in range(3):
     x=random.randrange(2)
